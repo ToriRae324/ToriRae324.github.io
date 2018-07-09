@@ -7,15 +7,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Victoria's Portfolio</title>
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Eagle+Lake|El+Messiri:500" rel="stylesheet">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
 
-
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.2.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
 
 
 </head>
@@ -23,196 +29,57 @@
 <body>
 
     <div class="container">
-        <div class="row">
+
+        <div class="row" id="header">
             <div class="col-md-12">
-                <div class="jumbotron text-center">
-                    <h1>Victoria's Working Portfolio</h1>
-                </div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html" id="name">Victoria Paul</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarColor01">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html">Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row content" id="about">
             <div class="col-md-12">
+                <img src="assets/images/personalimage.png" id="myImage">
+                <p>Naturally enthusiastic about technology, my passion, my learning, and my skills are broad: graphic design, website development, computer programming, IT support, and auto mechanics.</p>
 
+                <p>I’m trained as a full-stack developer and I’m currently enrolled as a part-time, online student at North Carolina Agricultural and Technical State University (NC A&T), pursuing my Bachelor of Science degree in Information Technology. I also hold an Associate’s in Applied Science (A.A.S), a Digital Design Certificate.</p>
 
-                <!-- Bamazon -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>
-                            <i class="fas fa-caret-right"></i>
-                            <a href="https://github.com/ToriRae324/Bamazon" target="_blank">Bamazon</a>
-                        </h2>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p>Bamazon is a CLI app used in conjunction with MySQL that runs as a simple storefront. The app displays products from the database, takes in orders from customers and depletes stock from the store's inventory The app allows Managers and Supervisors to perform additional functions.</p>
-                                <p>In order to run this program node modules will need to be installed from the package.json file, and the database will need to be created.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <p>Combined with my experience in HTML5, CSS3, JavaScript, jQuery, Bootstrap, React.js, Node.js, C#, .Net, Database Theory, Bookshelf.js, MongoDB, MySQL, Command Line, and Git and my keen ability to quickly identify,troubleshoot, and resolve code errors and bugs, I have provided invaluable quality assurance support on many projects.</p>
 
-
-                <!-- LIRI -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>
-                            <i class="fas fa-caret-right"></i>
-                            <a href="https://github.com/ToriRae324/LIRI" target="_blank">LIRI</a>
-                        </h2>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p>LIRI is a command line node app that takes in specific parameters from the command line and gives you back data in the terminal/bash window.</p>
-                                <p>In order to run this program node modules will need to be installed from the package.json file, and a .env file with Twitter and Spotify keys will need to be added.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 1 -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>
-                            <i class="fas fa-caret-right"></i>
-                            <a href="https://ejohn156.github.io/ExpectationByDestination/" target="_blank">Expectations by Destination</a>
-                        </h2>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p>Use your geolocation or enter a new location to see top rated restaurants and events in the
-                                    area</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- TrainScheduler -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>
-                            <i class="fas fa-caret-right"></i>
-                            <a href="https://torirae324.github.io/TrainScheduler/" target="_blank">Train Scheduler</a>
-                        </h2>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p>Enter the train details and the time of and the minutes until the next train will be calculated
-                                    and displayed.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-                <!-- GifTastic -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>
-                            <i class="fas fa-caret-right"></i>
-                            <a href="https://torirae324.github.io/GifTastic/" target="_blank">GifTastic</a>
-                        </h2>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p>Explore a variety of gifs using the Giphy API</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Trivia Game -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>
-                            <i class="fas fa-caret-right"></i>
-                            <a href="https://torirae324.github.io/TriviaGame/" target="_blank">Trivia Game</a>
-                        </h2>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p>Test your knowledge of cats in this timed game.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Unit 4 Game -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>
-                            <i class="fas fa-caret-right"></i>
-                            <a href="https://torirae324.github.io/unit-4-game/" target="_blank">Crystal Collector Game</a>
-                        </h2>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p>Four crystal, four random values, and a random value to match.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Psychic Game -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>
-                            <i class="fas fa-caret-right"></i>
-                            <a href="https://torirae324.github.io/Psychic-Game/" target="_blank">Psychic Game</a>
-                        </h2>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p>Can you guess the random letter in under 9 tries?</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Responsive Portfolio -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>
-                            <i class="fas fa-caret-right"></i>
-                            <a href="https://torirae324.github.io/Responsive-Portfolio/" target="_blank">Responsive Portfolio</a>
-                        </h2>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p>Resize the display to see how this page behaves.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Bootstrap Portfolio -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>
-                            <i class="fas fa-caret-right"></i>
-                            <a href="https://torirae324.github.io/Bootstrap-Portfolio/" target="_blank">Bootstrap Portfolio</a>
-                        </h2>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p>An introduction to the Bootstrap grid.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Wireframe -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>
-                            <i class="fas fa-caret-right"></i>
-                            <a href="https://torirae324.github.io/HW-Wireframe/" target="_blank">Wireframe</a>
-                        </h2>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p>Wireframing using CSS</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
+                <p>The daughter of a Marine Corps military veteran, I rise to the occasion and exceed personal and professionalexpectations. I’m a dependable, respectful, natural leader and great team player: I rally the troops,provide encouragement, and never give-up. Ooh-rah!</p>
             </div>
         </div>
+
+        <div class="row bg-light" id="footer">
+            <div class="col-md-12">
+                 <a href="https://www.linkedin.com/in/victoriaraepaul/" target="_blank"> <i class="fab fa-linkedin fa-2x"></i></a>
+                 <a href="https://github.com/ToriRae324" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                 <a href="mailto:victoriaraepaul@gmail.com"><i class="fas fa-at fa-2x"></i></a>
+                 
+            </div>
+        </div>
+
+
+
+
 
 
 
@@ -220,6 +87,12 @@
 
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
 
 </body>
 
