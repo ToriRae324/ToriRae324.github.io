@@ -56,6 +56,11 @@ nav, .navbar {
 #footer {
     text-align: center;
     margin-top: 50px;
+    padding: 15px 0;
+}
+
+.brands {
+    vertical-align: baseline;
 }
 
 .fa-2x {
