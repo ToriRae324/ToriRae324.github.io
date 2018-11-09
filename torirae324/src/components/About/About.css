@@ -1,0 +1,7 @@
+#myImage {
+    float: left;
+    border-radius: 15px 25px;
+    margin: 0 20px 15px 0;
+    height: 200px;
+    width: 200px;
+}
